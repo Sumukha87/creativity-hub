@@ -7,7 +7,7 @@ export const NavLinks = [
     "Backend",
     "Full-Stack",
     "Mobile",
-    "UI/UX",
+    "Electronics",
     "Game Dev",
     "DevOps",
     "Data Science",
@@ -16,6 +16,7 @@ export const NavLinks = [
     "Blockchain",
     "E-commerce",
     "Chatbots"
+
   ]
   
   export const footerLinks = [
