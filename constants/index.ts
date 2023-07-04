@@ -1,9 +1,5 @@
 export const NavLinks = [
-    { href: '/', key: 'Inspiration', text: 'Get Inspired' },
-    { href: '/', key: 'Find Projects', text: 'Find Projects' },
-    { href: '/', key: 'Learn Development', text: 'Learn Development' },
-    { href: '/', key: 'Career Advancement', text: 'Level Up You Career' },
-    { href: '/', key: 'Hire Developers', text: 'Hire Developers' }
+    
   ];
   
   export const categoryFilters = [

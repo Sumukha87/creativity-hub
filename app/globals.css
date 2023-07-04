@@ -64,7 +64,7 @@ body {
 
 /* Home */
 .projects-grid {
-  @apply grid xl:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-10 mt-10 w-full;
+  @apply grid xl:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-10 mt-10 w-full backdrop-blur-sm bg-white/30;
 }
 
 /* Project Actions */
@@ -104,7 +104,7 @@ body {
 
 /* Footer */
 .footer {
-  @apply flex-col paddings w-full gap-20 bg-light-white;
+  @apply flex-col text-white paddings w-full gap-20 bg-black;
 }
 
 .footer_copyright {
@@ -131,7 +131,7 @@ body {
 
 /* Navbar */
 .navbar {
-  @apply py-5 px-8 border-b border-nav-border gap-4;
+  @apply py-5 px-8 border-b border-nav-border gap-4 bg-black text-white;
 }
 
 /* Profile Menu */
@@ -150,7 +150,7 @@ body {
 }
 
 .form_image-container {
-  @apply w-full lg:min-h-[400px] min-h-[200px] relative;
+  @apply w-full lg:min-h-[400px] min-h-[200px] relative ;
 }
 
 .form_image-label {
